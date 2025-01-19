@@ -12,20 +12,21 @@ interface BookProps {
 }
 
 const Book: React.FC<BookProps> = (book) => {
+  // console.log(book);
   return (
     <div className="book-item">
       <div className="book-item-img">
-        <img src={book.cover_img} alt="cover" />
+        <img src={book.cover_img? book.cover_img: `./${process.env.PUBLIC_URL}/img/book-cover.png`} alt="cover" />
       </div>
       <div className="book-item-info">
-        <Link to={`/book/${book.id}`} {...book}>
+        <Link to={`/book/${book.id}`} {...book} >
           <div className="book-item-info-item">
           <span className="title name">{book.title}</span>
           </div>
         </Link>
         <div className="book-item-info-item">
           <span className="title">Author: </span>
-          <span>{book.author.join(", ")}</span>
+          <span>{(book.author!==null&&book.author.length!==0)?book.author.join(", "):"Unknown author"}</span>
         </div>
       </div>
       <div className="book-item-info-item">

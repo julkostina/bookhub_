@@ -15,7 +15,7 @@ const AppProvider = ({ children }: { children: ReactNode }) => {
       const response = await fetch(`${URL}${searchTerm}`);
       const data = await response.json();
       const { docs } = data;
-      console.log(docs);
+      // console.log(docs);
       if (docs) {
         const newBooks = docs.slice(0, 20).map((bookSingle:any) => {
           const {
@@ -36,7 +36,7 @@ const AppProvider = ({ children }: { children: ReactNode }) => {
           };
         });
         setBooks(newBooks);
-
+        console.log(newBooks);
         if(newBooks.length > 1){
           setResultTitle("Your Seach Result");
         }

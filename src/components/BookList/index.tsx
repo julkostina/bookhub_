@@ -3,20 +3,19 @@ import './index.scss';
 import { useGlobalContext } from '../../context';
 import Loader from '../Loader'; 
 import Book from './Book';
-
-const BookList: React.FC = () => { const {books, loading, resultTitle} = useGlobalContext();
+const BookList: React.FC = () => { const {books=['1'], loading, resultTitle} = useGlobalContext();
 const booksWithCovers = books.map((singleBook: any) => {
   return {
     ...singleBook,
-    id: (singleBook.id).replace("/works/", ""),
-    cover_img: singleBook.cover_id ? `https://covers.openlibrary.org/b/id/${singleBook.cover_id}-L.jpg` :  `${process.env.PUBLIC_URL}/img/book-cover.png`
+    id: singleBook.id!==null?(singleBook.id).replace("/works/", ""):null,
+    cover_img: singleBook.cover_id ? `https://covers.openlibrary.org/b/id/${singleBook.cover_id}-L.jpg` :  `/img/book-cover.png`
   }
 });
 
 if(loading) return <Loader />;
 
   return (
-    <section className='bookList'>
+    <section className='bookList' data-testid="booklist">
       <div className="container">
         <div className="section-title">
           <h2>{resultTitle}</h2>
@@ -32,5 +31,4 @@ if(loading) return <Loader />;
     </section>
   );
 };
-
 export default BookList;

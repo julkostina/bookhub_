@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders loader correctly 1`] = `
+<div>
+  <div
+    class="loader"
+    data-testid="loader"
+  >
+    <div
+      class="loader__image"
+      data-testid="loader__image"
+    />
+  </div>
+</div>
+`;

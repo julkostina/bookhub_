@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders header correctly 1`] = `
+<div>
+  <div
+    class="header"
+    data-testid="header"
+  >
+    <div
+      class="header__left"
+    >
+      <img
+        alt="logo"
+        src="../img/logo.png"
+      />
+      <h1>
+        BookHub
+      </h1>
+    </div>
+    <div
+      class="header__right"
+    >
+      <button>
+        Home
+      </button>
+      <button>
+        About
+      </button>
+    </div>
+  </div>
+</div>
+`;

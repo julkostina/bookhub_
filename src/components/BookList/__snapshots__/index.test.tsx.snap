@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Book component correctly 1`] = `
+<div>
+  <div
+    class="book-item"
+  >
+    <div
+      class="book-item-img"
+    >
+      <img
+        alt="cover"
+        src="sample-image.jpg"
+      />
+    </div>
+    <div
+      class="book-item-info"
+    >
+      <a
+        author="Author1,Author2"
+        cover_img="sample-image.jpg"
+        edition_count="3"
+        first_publish_year="1990"
+        href="/book/123"
+        id="123"
+        title="Sample Book"
+      >
+        <div
+          class="book-item-info-item"
+        >
+          <span
+            class="title name"
+          >
+            Sample Book
+          </span>
+        </div>
+      </a>
+      <div
+        class="book-item-info-item"
+      >
+        <span
+          class="title"
+        >
+          Author: 
+        </span>
+        <span>
+          Author1, Author2
+        </span>
+      </div>
+    </div>
+    <div
+      class="book-item-info-item"
+    >
+      <span
+        class="title"
+      >
+        Total Editions: 
+      </span>
+      <span>
+        3
+      </span>
+    </div>
+    <div
+      class="book-item-info-item"
+    >
+      <span
+        class="title"
+      >
+        First Publish Year: 
+      </span>
+      <span>
+        1990
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders BookList correctly 1`] = `
+<div>
+  <section
+    class="bookList"
+    data-testid="booklist"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="section-title"
+      >
+        <h2>
+          Sample Title
+        </h2>
+      </div>
+      <div
+        class="bookList-content"
+      />
+    </div>
+  </section>
+</div>
+`;

@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders About component 1`] = `
+<div>
+  <div
+    class="about"
+  >
+    <div
+      class="header"
+      data-testid="header"
+    >
+      <div
+        class="header__left"
+      >
+        <img
+          alt="logo"
+          src="../img/logo.png"
+        />
+        <h1>
+          BookHub
+        </h1>
+      </div>
+      <div
+        class="header__right"
+      >
+        <button>
+          Home
+        </button>
+        <button>
+          About
+        </button>
+      </div>
+    </div>
+    <div
+      class="about-text"
+    >
+      <div>
+        <h1
+          data-testid="bookhub"
+        >
+          BookHub
+        </h1>
+        <p>
+          BookHub is a comprehensive online platform designed for book enthusiasts and researchers alike. It allows users to easily find detailed information on a vast collection of books across various genres. Each book listing on BookHub includes key information such as the book's title, a brief description, author details, date of publication, genre, and user reviews. The platform also offers personalized recommendations, allowing users to explore new books based on their reading preferences. Whether you're looking for the latest releases, classic literature, or specific authors, BookHub makes book discovery simple and engaging.
+        </p>
+        <p
+          style="padding-top: 15px; font-style: italic; font-size: 1.3rem;"
+        >
+          Enjoy your time with BookHub!
+        </p>
+        <div
+          class="created"
+        >
+          <p>
+            <span>
+              Author: 
+            </span>
+             
+            <a
+              href="https://github.com/julkostina"
+            >
+              Yulia Kostina
+            </a>
+          </p>
+          <p>
+            <span>
+              Based on:
+            </span>
+             
+            <a
+              href="https://openlibrary.org/"
+            >
+              OpenLibrary
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
