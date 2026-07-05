@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/bookhub_/static/css/main.42256aac.css",
+    "main.js": "/bookhub_/static/js/main.00d67915.js",
+    "static/media/background.jpg": "/bookhub_/static/media/background.3a124e66757ab5721173.jpg",
+    "static/media/logo.png": "/bookhub_/static/media/logo.323308c3b0d780bae442.png",
+    "static/media/Mulish-Regular.ttf": "/bookhub_/static/media/Mulish-Regular.d3d302e1573fb1c8db5b.ttf",
+    "static/media/Oswald-SemiBold.ttf": "/bookhub_/static/media/Oswald-SemiBold.ddc9cdcf259f8e6a1d35.ttf",
+    "static/media/Oswald-Bold.ttf": "/bookhub_/static/media/Oswald-Bold.41669c1e4f6bdc605d26.ttf",
+    "static/media/Oswald-Regular.ttf": "/bookhub_/static/media/Oswald-Regular.31bce04a1ae8549b1464.ttf",
+    "index.html": "/bookhub_/index.html",
+    "main.42256aac.css.map": "/bookhub_/static/css/main.42256aac.css.map",
+    "main.00d67915.js.map": "/bookhub_/static/js/main.00d67915.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42256aac.css",
+    "static/js/main.00d67915.js"
+  ]
+}
