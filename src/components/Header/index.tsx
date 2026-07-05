@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.scss";
-import { useNavigate } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom"; 
+import Logo from "../../assets/img/logo.png";
 const Header: React.FC = () => {
   const navigate = useNavigate();
   const handleNavigate = (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -16,7 +16,7 @@ const Header: React.FC = () => {
   return (
     <div className="header" data-testid="header">
       <div className="header__left">
-        <img src="../img/logo.png" alt="logo" />
+        <img src={Logo} alt="logo" />
         <h1>BookHub</h1>
       </div>
       <div className="header__right">

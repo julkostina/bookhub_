@@ -1,0 +1,26 @@
+.main{
+    background: url('../../../public/img/background.jpg') no-repeat center center/cover;
+    padding: 60px;
+    color: #ffffff;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-size:  100% 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .main__text{
+        text-align: center;
+        h1{
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        p{
+            background-color: #2e1205;
+            font-size: 1.5rem;
+            padding: 20px;
+        }
+    }
+}
